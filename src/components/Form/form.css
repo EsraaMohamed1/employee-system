@@ -1,0 +1,73 @@
+
+
+ .captionOfForm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(5,14,45,255);
+    color: white;
+    width:440px;
+    padding:15px 15px;
+    margin-bottom: 5%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+   form {
+    position: relative;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(248,250,251,255);
+  }
+  .insideform{
+    margin-top: 15%;
+  }
+ label{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2%;
+ }
+  input,select{
+    width: 97%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px rgba(211, 211, 211, 0.87) solid;
+   
+  }
+  select{
+    /* margin-bottom: 3%; */
+    color: gray;
+    font-size: 14px;
+  }
+  #ll{
+    margin-top:3% ;
+  }
+  
+  p {
+    color: red;
+  }
+  .formfoot{
+    display: flex;
+    justify-content: space-between;
+  }
+  .rightside button{
+    margin-left: 10px !important;
+    border-radius: 5px;
+    /* width: 50px; */
+    border: none;
+    padding:3px 10px;
+
+  }
+  .btn1{
+    background-color: rgb(240, 238, 238) !important;
+    color: black !important;
+    border: 1px lightgray solid !important;
+    font-weight: 500;
+  }
+  .btn2{
+    background-color: rgb(2, 177, 95) !important;
+    color: white !important;
+    border: 1px lightgray solid !important;
+    font-weight: 500;
+  }
+  

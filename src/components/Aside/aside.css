@@ -1,0 +1,31 @@
+.aside{
+    float:left;
+background-color: rgba(5,14,45,255);
+    width: 15%;
+    height:100vh;
+    z-index: 1;
+}
+.inputAside{
+    height: 35px;
+    width: 98%;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+.spanAside{
+    color: rgb(245, 229, 229);
+   font-size: 16px;
+    margin: 7%;
+}
+.pAside{
+    font-size: 14px;
+    color: rgb(168, 165, 165);
+    margin: 3%;
+    /* color: rgb(179, 179, 187); */
+}
+.options:hover{
+    color: green;
+    background-color: azure;
+}
+.form-select{
+    color: rgba(199, 199, 195, 0.767) !important;
+}
